@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\
+C:\Users\Michelle\Documents\GitHub\NMCT.BA.CashlessProject\nmct.ba.cashlessproject.ui.klant\obj\Debug\
 nmct.ba.cashlessproject.ui.klant
 none
 false
 DEBUG;TRACE
-C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\App.xaml
+C:\Users\Michelle\Documents\GitHub\NMCT.BA.CashlessProject\nmct.ba.cashlessproject.ui.klant\App.xaml
 4-1140945212
 
 221621552806
-25-718311153
+25902282091
 View\Container.xaml;View\Klant\Register\KlantRegisteren.xaml;View\Klant\Saldo\KlantSaldoOpladen.xaml;View\MainWindow.xaml;
 
-False
+True
 
