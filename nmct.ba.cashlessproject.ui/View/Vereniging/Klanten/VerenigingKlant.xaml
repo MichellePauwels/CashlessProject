@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="nmct.ba.cashlessproject.ui.View.Vereniging.Klanten.VerenigingKlant"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:rules="clr-namespace:nmct.ba.cashlessproject.ui.View.Rules"
+             xmlns:vm="clr-namespace:nmct.ba.cashlessproject.ui.ViewModel"
+             d:DesignHeight="485" d:DesignWidth="525">
+    <UserControl.DataContext>
+        <vm:KlantenVM />
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <rules:BalanceRule x:Key="BalanceRule"/>
+        <ControlTemplate x:Key="ErrorTemplate">
+            <StackPanel>
+                <Border BorderBrush="Red" BorderThickness="2">
+                    <AdornedElementPlaceholder/>
+                </Border>
+                <TextBlock Foreground="Red" Text="{Binding [0].ErrorContent}"/>
+            </StackPanel>
+        </ControlTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid Visibility="{Binding OverviewVisibility}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="261*"/>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="199*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="87"/>
+                <RowDefinition Height="58*"/>
+                <RowDefinition Height="58*"/>
+                <RowDefinition Height="58*"/>
+                <RowDefinition Height="58*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="Title" Style="{StaticResource Title}" Text="Klanten" />
+            <ListBox x:Name="lstBestelling" Margin="10,5,5,10" Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="2" ItemsSource="{Binding Costumers}" DisplayMemberPath="CostumerName" SelectedItem="{Binding SelectedCostumer}" />
+            <Button x:Name="btnWijzigSaldo" Content="Wijzig" Style="{StaticResource ButtonGreen}" Command="{Binding ChangeEditPage}" Margin="5,5,5,25" Grid.Column="2" Grid.Row="1" />
+        </Grid>
+        <Grid Visibility="{Binding EditingCustomerVisibility}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="261*"/>
+                <ColumnDefinition Width="261*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="105*"/>
+                <RowDefinition Height="48*"/>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="48*"/>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="28"/>
+                <RowDefinition Height="58"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="Title2" Style="{StaticResource Title}" Text="Klanten" Margin="10,15,10.5,15" />
+            <TextBlock Style="{StaticResource Label}" Grid.Row="1" Text="Naam" Margin="10,5,10,5" />
+            <TextBlock Style="{StaticResource Label}" Grid.Row="1" Text="Saldo" Grid.Column="1" Margin="10,5,10,5" />
+            <TextBox x:Name="txtName" Style="{StaticResource Input}" Text="{Binding SelectedCostumer.CostumerName}" Grid.Row="2" Margin="10,5,10,5"/>
+            <TextBox x:Name="txtBalance" Style="{StaticResource Input}" Text="{Binding SelectedCostumer.Balance, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Grid.Row="2" Grid.Column="1" Margin="10,5,10,5" />
+            <TextBlock Style="{StaticResource Label}" Grid.Row="3" Text="Adres" Grid.ColumnSpan="2" Grid.RowSpan="2" HorizontalAlignment="Center" />
+            <TextBox x:Name="txtAddress" Style="{StaticResource Input}" Text="{Binding SelectedCostumer.Address}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Row="4" Margin="112,5,112,5" Grid.ColumnSpan="2"/>
+            <TextBlock x:Name="txbError" Style="{StaticResource ErrorMessage}" Text="{Binding Error}" Grid.Row="5" Margin="10,0,10.5,15" Grid.RowSpan="2"/>
+            <Button x:Name="btnNewProduct" Style="{StaticResource ButtonBlue}" Grid.Row="6" Grid.ColumnSpan="2" Content="Wijzig klant" Command="{Binding UpdateKlant}" Margin="0,5,0,-5" />
+        </Grid>
+    </Grid>
+</UserControl>

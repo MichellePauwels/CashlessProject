@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Vereniging registeren";
+}
+
+<h2>Vereniging registeren</h2>
+<form action="/Vereniging/InsertVereniging" method="post">
+    <label for="verNaam">Naam</label>
+    <br />
+    <input type="text" name="verNaam" />
+    <br />
+    <br />
+    <label for="adres">Adres</label>
+    <br />
+    <input type="text" name="adres" />
+    <br />
+    <br />
+    <label for="email">Email</label>
+    <br />
+    <input type="text" name="email" />
+    <br />
+    <br />
+    <label for="telefoon">Telefoon</label>
+    <br />
+    <input type="text" name="telefoon" />
+    <br />
+    <br />
+    <label for="loginUser">Login username</label>
+    <br />
+    <input type="text" name="loginUser" />
+    <br />
+    <br />
+    <label for="loginPas">Login paswoord</label>
+    <br />
+    <input type="text" name="loginPas" />
+    <br />
+    <br />
+    <label for="dbName">Database Name</label>
+    <br />
+    <input type="text" name="dbName" />
+    <br />
+    <br />
+    <label for="dbUser">Database username</label>
+    <br />
+    <input type="text" name="dbUser" />
+    <br />
+    <br />
+    <label for="dbPas">Database paswoord</label>
+    <br />
+    <input type="text" name="dbPas" />
+    <br />
+    <br />
+    <input type="submit" value="Registreren" name="btnRegistreren" />
+</form>
+

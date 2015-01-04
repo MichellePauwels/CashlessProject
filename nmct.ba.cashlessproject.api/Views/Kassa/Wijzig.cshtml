@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Wijzig";
+}
+
+<h2>Wijzig kassa van vereniging</h2>
+<form action="/Kassa/WijzigKassa" method="post">
+    <label for="kassa">Kassa</label>
+    <br />
+    <p>@ViewBag.ChangeRegister.RegisterName</p>
+    <input type="hidden" name="changeregisterid" value="@ViewBag.ChangeRegister.Id"/>
+    <br />
+    <label for="vereniging">Vereniging</label>
+    <br />
+    <select name="vereniging">
+        @foreach (var vereniging in ViewBag.ListOrganisations)
+        {
+            <option value="@vereniging.Id">@vereniging.OrganisationName</option>
+        }
+    </select>
+    <br />
+    <br />
+    <input type="submit" value="Wijzig" name="btnWijzig" />
+</form>
+

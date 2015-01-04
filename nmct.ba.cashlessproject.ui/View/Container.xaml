@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="nmct.ba.cashlessproject.ui.View.Container"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:nmct.ba.cashlessproject.ui.ViewModel"
+             xmlns:v1="clr-namespace:nmct.ba.cashlessproject.ui.View.Vereniging.Product"
+             xmlns:v3="clr-namespace:nmct.ba.cashlessproject.ui.View.Vereniging.Kassa"
+             xmlns:v4="clr-namespace:nmct.ba.cashlessproject.ui.View.Vereniging.Klanten"
+             xmlns:v5="clr-namespace:nmct.ba.cashlessproject.ui.View.Vereniging.Account"
+             xmlns:v6="clr-namespace:nmct.ba.cashlessproject.ui.View.Vereniging.Medewerker"
+             mc:Ignorable="d" 
+             d:DesignHeight="485" d:DesignWidth="525">
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type vm:AccountVM}">
+            <v5:VerenigingAccount/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ProductVM}">
+            <v1:VerenigingProduct/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:KlantenVM}">
+            <v4:VerenigingKlant/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:MedewerkerVM}">
+            <v6:VerenigingMedewerker/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:RegisterVM}">
+            <v3:VerenigingKassaOverzicht/>
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <TabControl ItemsSource="{Binding Pages}" SelectedItem="{Binding CurrentPage}">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <HeaderedContentControl Header="{Binding Name}" />
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+        </TabControl>
+        <Image Height="50" Width="60" Stretch="Fill" Source="Images/beaver.png" Opacity="0.1" Margin="430,0,0,340"/>
+    </Grid>
+</UserControl>

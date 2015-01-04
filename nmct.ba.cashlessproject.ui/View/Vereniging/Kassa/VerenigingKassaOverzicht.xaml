@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="nmct.ba.cashlessproject.ui.View.Vereniging.Kassa.VerenigingKassaOverzicht"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:nmct.ba.cashlessproject.ui.ViewModel"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d" 
+             d:DesignHeight="485" d:DesignWidth="525">
+    <UserControl.DataContext>
+        <vm:RegisterVM/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid Visibility="{Binding OverviewVisibility}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="261*"/>
+                <ColumnDefinition Width="259*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="87"/>
+                <RowDefinition Height="191*"/>
+                <RowDefinition Height="58"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="Title" Style="{StaticResource Title}" Text="Kassa" />
+            <ListBox x:Name="lstKassa" Margin="10,5,5,10" Grid.Row="1" ItemsSource="{Binding Registers}" SelectedItem="{Binding SelectedRegister}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                                <Run Text="{Binding RegisterName}"/>
+                                <Run Text="(" />
+                                <Run Text="{Binding Device}" />
+                                <Run Text=")" />
+                        </TextBlock>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <ListBox x:Name="lstMedewerkersPerKassa" Margin="5,5,10,10" ItemsSource="{Binding Employees}" DisplayMemberPath="EmployeeName" Grid.Row="1" Grid.Column="2"/>
+            <Button Grid.Row="2" Grid.ColumnSpan="2" Style="{StaticResource ButtonBlue}" Content="Medewerker linken aan kassa" Command="{Binding MedewerkersLinkenPagina}" />
+        </Grid>
+        <Grid Visibility="{Binding LinkingEmployeeVisibility}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="261*"/>
+                <ColumnDefinition Width="259*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="87"/>
+                <RowDefinition Height="191*"/>
+                <RowDefinition Height="58"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="Title2" Style="{StaticResource Title}" Text="Kassa" />
+            <ComboBox Grid.Row="1" Margin="20,120,20,120" ItemsSource="{Binding Registers}" SelectedItem="{Binding SelectedRegister}" DisplayMemberPath="RegisterName"></ComboBox>
+            <ComboBox Grid.Row="1" Grid.Column="1" Margin="20,120,20,120" ItemsSource="{Binding Employees}" SelectedItem="{Binding SelectedEmployee}" DisplayMemberPath="EmployeeName"></ComboBox>
+            <Button Grid.Row="2" Grid.ColumnSpan="2" Style="{StaticResource ButtonBlue}" Content="Medewerker linken" Command="{Binding LinkEmployeeCommand}" />
+        </Grid>
+    </Grid>
+</UserControl>

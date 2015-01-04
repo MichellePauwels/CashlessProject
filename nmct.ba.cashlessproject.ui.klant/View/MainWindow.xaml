@@ -1,0 +1,24 @@
+﻿<Window x:Class="nmct.ba.cashlessproject.ui.klant.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BA Cashless Project: Klant" Height="485" Width="625"
+        xmlns:v1="clr-namespace:nmct.ba.cashlessproject.ui.klant.View"
+        xmlns:v3="clr-namespace:nmct.ba.cashlessproject.ui.klant.View.Klant.Register"
+        xmlns:vm="clr-namespace:nmct.ba.cashlessproject.ui.klant.ViewModel"
+        Icon="Images/beaver.png">
+    <Window.DataContext>
+        <vm:ApplicationVM/>
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:RegisterVM}">
+            <v3:KlantRegisteren/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ContainerVM}">
+            <v1:Container/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Image Height="50" Width="60" Stretch="Fill" Source="Images/beaver.png" Opacity="0.1" Margin="430,0,0,340"/>
+        <ContentControl Content="{Binding CurrentPage}" />
+    </Grid>
+</Window>

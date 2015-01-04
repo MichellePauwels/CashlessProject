@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="nmct.ba.cashlessproject.ui.medewerker.View.Container"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:v1="clr-namespace:nmct.ba.cashlessproject.ui.medewerker.View.Medewerker.Bestelling"
+             xmlns:v2="clr-namespace:nmct.ba.cashlessproject.ui.medewerker.View.Medewerker.Kaart"
+             xmlns:vm="clr-namespace:nmct.ba.cashlessproject.ui.medewerker.ViewModel"
+             d:DesignHeight="485" d:DesignWidth="525">
+    <UserControl.DataContext>
+        <vm:ContainerVM/>
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type vm:BestellingVM}">
+            <v1:MedewerkerBestelling/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:KaartVM}">
+            <v2:MedewerkerKaartGegevens/>
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <TabControl ItemsSource="{Binding Pages}">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <HeaderedContentControl Header="{Binding Name}" />
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+        </TabControl>
+        <Image Height="50" Width="60" Stretch="Fill" Source="Images/beaver.png" Opacity="0.1" Margin="370,0,70,340"/>
+        <Button Style="{StaticResource ButtonBlue}" Content="⍈" Margin="480,22,-0.2,395" FontSize="25" Height="Auto" Command="{Binding LogoffCommand}" />
+    </Grid>
+</UserControl>

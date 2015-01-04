@@ -1,0 +1,122 @@
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.csproj.App.config
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.csprojResolveAssemblyReference.cache
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\App.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui_MarkupCompile.cache
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.ui.exe.config
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.ui.exe
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.ui.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.model.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.model.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\App.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.g.resources
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.Properties.Resources.resources
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.csproj.GenerateResource.Cache
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.exe
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Shared\Bevestiging.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Shared\Error.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Shared\Melding.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Kassa\VerenigingKassaOverzicht.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Statistieken\VerenigingStatistiek.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Statistieken\VerenigingStatistiekMaken.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\VerenigingLogin.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\MainWindow.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Shared\Bevestiging.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Shared\Error.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Shared\Melding.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Kassa\VerenigingKassaOverzicht.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Statistieken\VerenigingStatistiek.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Statistieken\VerenigingStatistiekMaken.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\VerenigingLogin.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui_MarkupCompile.lref
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\MainWindow.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Product\VerenigingProduct.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Product\VerenigingProduct.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Thinktecture.IdentityModel.Client.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Thinktecture.IdentityModel.Client.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Account\VerenigingAccount.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Account\VerenigingAccount.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Container.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Container.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Medewerker\VerenigingMedewerker.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Medewerker\VerenigingMedewerker.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Klanten\VerenigingKlant.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Klanten\VerenigingKlant.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.ui.exe.config
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.exe
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.ui.exe
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.ui.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.model.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Thinktecture.IdentityModel.Client.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\nmct.ba.cashlessproject.model.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\bin\Debug\Thinktecture.IdentityModel.Client.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.csproj.App.config
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.csprojResolveAssemblyReference.cache
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Statistieken\VerenigingStatistiek.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Statistieken\VerenigingStatistiekMaken.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\App.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Container.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\MainWindow.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Account\VerenigingAccount.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Kassa\VerenigingKassaOverzicht.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Klanten\VerenigingKlant.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Medewerker\VerenigingMedewerker.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Product\VerenigingProduct.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Statistieken\VerenigingStatistiek.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Statistieken\VerenigingStatistiekMaken.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\VerenigingLogin.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\App.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui_MarkupCompile.cache
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui_MarkupCompile.lref
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Container.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\MainWindow.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Account\VerenigingAccount.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Kassa\VerenigingKassaOverzicht.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Klanten\VerenigingKlant.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Medewerker\VerenigingMedewerker.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\Product\VerenigingProduct.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\View\Vereniging\VerenigingLogin.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.g.resources
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.Properties.Resources.resources
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui\obj\Debug\nmct.ba.cashlessproject.ui.csproj.GenerateResource.Cache

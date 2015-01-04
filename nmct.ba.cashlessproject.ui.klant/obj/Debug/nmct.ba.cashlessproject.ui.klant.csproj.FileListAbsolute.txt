@@ -1,0 +1,92 @@
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.ui.klant.exe.config
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.ui.klant.exe
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.ui.klant.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.model.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Thinktecture.IdentityModel.Client.dll
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.model.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Thinktecture.IdentityModel.Client.pdb
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.csproj.App.config
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.csprojResolveAssemblyReference.cache
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Klant\Register\KlantRegisteren.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Klant\Saldo\KlantSaldoOpladen.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\App.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Container.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Klant\Register\KlantRegisteren.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Klant\Saldo\KlantSaldoOpladen.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\MainWindow.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\App.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant_MarkupCompile.cache
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant_MarkupCompile.lref
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Container.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\MainWindow.baml
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.g.resources
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.Properties.Resources.resources
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.csproj.GenerateResource.Cache
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.exe
+C:\Users\Michelle Pauwels\Desktop\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.ui.klant.exe.config
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.ui.klant.exe
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.ui.klant.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.model.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Thinktecture.IdentityModel.Client.dll
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\nmct.ba.cashlessproject.model.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\bin\Debug\Thinktecture.IdentityModel.Client.pdb
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.csproj.App.config
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.csprojResolveAssemblyReference.cache
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Klant\Register\KlantRegisteren.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Klant\Saldo\KlantSaldoOpladen.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\App.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Container.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Klant\Register\KlantRegisteren.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Klant\Saldo\KlantSaldoOpladen.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\MainWindow.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\App.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant_MarkupCompile.cache
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant_MarkupCompile.lref
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\Container.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\View\MainWindow.baml
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.g.resources
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.Properties.Resources.resources
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.csproj.GenerateResource.Cache
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.exe
+C:\Users\Michelle\Documents\nmct.ba.cashlessproject\nmct.ba.cashlessproject.ui.klant\obj\Debug\nmct.ba.cashlessproject.ui.klant.pdb

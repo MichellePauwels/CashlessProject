@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Kassa toevoegen";
+}
+
+<h2>Kassa toevoegen</h2>
+<form action="/Kassa/ToevoegenKassa" method="post">
+    <label for="kassa">Kassa</label>
+    <br />
+    <input type="text" name="kassaNaam" />
+    <br />
+    <br />
+    <label for="toestel">Toestel</label>
+    <br />
+    <input type="text" name="toestel" />
+    <br />
+    <br />
+    <input type="submit" value="Toevoegen" name="btnToevoegen" />
+</form>

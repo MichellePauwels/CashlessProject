@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="nmct.ba.cashlessproject.ui.medewerker.View.Medewerker.Kaart.MedewerkerKaartGegevens"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="385" d:DesignWidth="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="261*"/>
+            <ColumnDefinition Width="259*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="87"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="28"/>
+            <RowDefinition Height="58"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="Title" Style="{StaticResource Title}" Text="Klant" />
+        <TextBlock Style="{StaticResource Label}" Grid.Row="1" Text="Card ID"/>
+        <TextBlock Style="{StaticResource Text}" Grid.Row="1" Grid.Column="2" Margin="17" Text="{Binding LoggedInCostumer.Rijksregisternummer, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Style="{StaticResource Label}" Grid.Row="2" Text="Naam kaarthouder"/>
+        <TextBlock Style="{StaticResource Text}" Grid.Row="2" Grid.Column="2" Margin="17" Text="{Binding LoggedInCostumer.CostumerName, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Style="{StaticResource Label}" Grid.Row="3" Text="Huidig saldo"/>
+        <TextBlock Style="{StaticResource Text}" Grid.Row="3" Grid.Column="2" Margin="17">
+            <Run Text="€ " />
+            <Run Text="{Binding LoggedInCostumer.Balance, UpdateSourceTrigger=PropertyChanged}" />
+        </TextBlock>
+        <TextBlock Style="{StaticResource ErrorMessage}" Text="{Binding Error}" Grid.ColumnSpan="2" Grid.Row="4" Margin="5"/>
+        <Button Style="{StaticResource ButtonBlue}" Content="Klant ophalen" Grid.ColumnSpan="2" Grid.Row="5" Command="{Binding GetCostumerCommand}" />
+    </Grid>
+</UserControl>

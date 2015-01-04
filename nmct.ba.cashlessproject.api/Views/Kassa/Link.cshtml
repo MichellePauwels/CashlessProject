@@ -1,0 +1,30 @@
+﻿@model nmct.ba.cashlessproject.api.Models.Presentation.PMKassa
+
+@{
+    ViewBag.Title = "Link";
+}
+
+<h2>Link kassa</h2>
+<form action="/Kassa/LinkKassa" method="post">
+    <label for="kassa">Kassa</label>
+    <br />
+    <select name="kassa">
+        @foreach (var kassa in Model.ListRegisters)
+        {
+            <option value="@kassa.Id">@kassa.RegisterName</option>
+        }
+    </select>
+    <br />
+    <br />
+    <label for="vereniging">Vereniging</label>
+    <br />
+    <select name="vereniging">
+        @foreach (var vereniging in Model.ListOrganisations)
+        {
+            <option value="@vereniging.Id">@vereniging.OrganisationName</option>
+        }
+    </select>
+    <br />
+    <br />
+    <input type="submit" value="Link" name="btnLink" />
+</form>

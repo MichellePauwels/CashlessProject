@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="nmct.ba.cashlessproject.ui.View.Vereniging.Statistieken.VerenigingStatistiek"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="485" d:DesignWidth="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="261*"/>
+            <ColumnDefinition Width="199*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="87"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="58"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="Title" Style="{StaticResource Title}" Text="Statistieken" />
+        <Button x:Name="btnOk" Content="OK" Style="{StaticResource ButtonBlue}" Grid.Row="4" Grid.ColumnSpan="2" />
+    </Grid>
+</UserControl>

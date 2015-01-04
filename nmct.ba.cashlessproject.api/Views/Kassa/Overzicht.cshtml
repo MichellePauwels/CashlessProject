@@ -1,0 +1,68 @@
+﻿@model nmct.ba.cashlessproject.api.Models.Presentation.PMKassa
+
+@{
+    ViewBag.Title = "Overzicht kassa's";
+}
+
+<h2>Overzicht kassa's</h2>
+<br />
+<br />
+<form action="/Kassa/Overzicht" method="post">
+    <select name="vereniging">
+        @foreach (var vereniging in Model.ListOrganisations)
+        {
+            <option value="@vereniging.Id">@vereniging.OrganisationName</option>
+        }
+    </select>
+    <br />
+    <br />
+    <input type="submit" value="Opzoeken" />
+</form>
+<br />
+<br />
+<h3>Beschikbare kassa's</h3>
+<br />
+<table style="width:100%">
+    <tr>
+        <th>Naam</th>
+        <th>Toestel</th>
+        <th>Aankoopdatum</th>
+        <th>Verloopdatum</th>
+    </tr>
+
+    @foreach (var kassa in Model.ListAvailableRegisters)
+    {
+        <tr>
+            <td>@kassa.RegisterName</td>
+            <td>@kassa.Device</td>
+            <td>@kassa.PurchaseDate</td>
+            <td>@kassa.ExpiresDate</td>
+        </tr>
+    }
+</table>
+<br />
+<br />
+<h3>Kassa's</h3>
+<br />
+<table style="width:100%">
+    <tr>
+        <th>Naam</th>
+        <th>Toestel</th>
+        <th>Aankoopdatum</th>
+        <th>Verloopdatum</th>
+    </tr>
+
+    @foreach (var kassa in Model.ListRegisters)
+    {
+        <tr>
+            <td>@kassa.RegisterName</td>
+            <td>@kassa.Device</td>
+            <td>@kassa.PurchaseDate</td>
+            <td>@kassa.ExpiresDate</td>
+            <td><a href="/Kassa/Wijzig?RegisterId=@kassa.Id">Wijzig van vereniging</a></td>
+        </tr>
+    }
+</table>
+<br />
+<br />
+@Html.ActionLink("Toon alle kassa's", "Overzicht")

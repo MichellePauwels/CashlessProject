@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Overzicht verenigingen";
+}
+
+<h2>Overzicht verenigingen</h2>
+<table style="width:100%">
+    <tr>
+        <th>Naam</th>
+    </tr>
+    @foreach (var file in ViewBag.ListOrganisations)
+    {
+        <tr>
+            <td>@file.OrganisationName</td>
+            <td><a href="/Vereniging/Details?OrgId=@file.Id">Details</a></td>
+        </tr>
+    }
+
+</table>
