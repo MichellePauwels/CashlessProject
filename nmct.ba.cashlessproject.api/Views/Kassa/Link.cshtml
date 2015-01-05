@@ -9,7 +9,7 @@
     <label for="kassa">Kassa</label>
     <br />
     <select name="kassa">
-        @foreach (var kassa in Model.ListRegisters)
+        @foreach (var kassa in Model.ListAvailableRegisters)
         {
             <option value="@kassa.Id">@kassa.RegisterName</option>
         }

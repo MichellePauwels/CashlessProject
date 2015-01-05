@@ -10,6 +10,7 @@ using System.Web.Mvc;
 
 namespace nmct.ba.cashlessproject.api.Controllers
 {
+    [Authorize]
     public class VerenigingController : Controller
     {
         public ActionResult Index()

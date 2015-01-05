@@ -11,6 +11,7 @@ using System.Web.Mvc;
 
 namespace nmct.ba.cashlessproject.api.Controllers
 {
+    [Authorize]    
     public class KassaController : Controller
     {
         List<Register> allregisters = RegisterDA.GetRegisters();
@@ -25,8 +26,19 @@ namespace nmct.ba.cashlessproject.api.Controllers
         public ActionResult Link()
         {
             PMKassa pmkassa = new PMKassa();
-            pmkassa.ListRegisters = RegisterDA.GetRegisters();
-            pmkassa.ListOrganisations = VerenigingDA.GetOrganisations();
+            pmkassa.ListOrganisations = allorganisations;
+            pmkassa.ListRegisters = allregisters;
+            pmkassa.ListAvailableRegisters = new List<Register>();
+
+            foreach (Register reg in allregisters)
+            {
+                bool isAvailableRegister = RegisterOrganisationDA.IsAvailableRegister(reg.Id);
+
+                if (isAvailableRegister)
+                {
+                    pmkassa.ListAvailableRegisters.Add(reg);
+                }
+            }
 
             return View(pmkassa);
         }

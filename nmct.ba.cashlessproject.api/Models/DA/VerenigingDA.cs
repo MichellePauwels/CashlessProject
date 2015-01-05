@@ -24,7 +24,7 @@ namespace nmct.ba.cashlessproject.api.Models.DA
             string dbname = claims.FirstOrDefault(c => c.Type == "dbname").Value;
             string id = claims.FirstOrDefault(c => c.Type == "id").Value;
 
-            return Database.CreateConnectionString("System.Data.SqlClient", @"MichelleToshiba", dbname, dblogin, dbpass);
+            return Database.CreateConnectionString("System.Data.SqlClient", @"MichelleToshiba", dbname, dblogin, Cryptography.Decrypt(dbpass));
         }
 
         public static Vereniging CheckCredentials(string username, string password)
@@ -76,10 +76,10 @@ namespace nmct.ba.cashlessproject.api.Models.DA
             string sql = "INSERT INTO Organisation VALUES(@Login,@Password,@DbName,@DbLogin,@DbPassword,@OrganisationName,@Address,@Email,@Phone)";
 
             DbParameter par1 = Database.AddParam(CONNECTIONSTRING, "@Login", ver.Login);
-            DbParameter par2 = Database.AddParam(CONNECTIONSTRING, "@Password", ver.Password);
+            DbParameter par2 = Database.AddParam(CONNECTIONSTRING, "@Password", Cryptography.Encrypt(ver.Password));
             DbParameter par3 = Database.AddParam(CONNECTIONSTRING, "@DbName", ver.DbName);
             DbParameter par4 = Database.AddParam(CONNECTIONSTRING, "@DbLogin", ver.DbLogin);
-            DbParameter par5 = Database.AddParam(CONNECTIONSTRING, "@DbPassword", ver.DbPassword);
+            DbParameter par5 = Database.AddParam(CONNECTIONSTRING, "@DbPassword", Cryptography.Encrypt(ver.DbPassword));
             DbParameter par6 = Database.AddParam(CONNECTIONSTRING, "@OrganisationName", ver.OrganisationName);
             DbParameter par7 = Database.AddParam(CONNECTIONSTRING, "@Address", ver.Address);
             DbParameter par8 = Database.AddParam(CONNECTIONSTRING, "@Email", ver.Email);

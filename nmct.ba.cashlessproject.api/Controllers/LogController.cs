@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace nmct.ba.cashlessproject.api.Controllers
 {
+    [Authorize]
     public class LogController : Controller
     {
         public ActionResult Index()

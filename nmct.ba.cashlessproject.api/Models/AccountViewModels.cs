@@ -79,6 +79,23 @@ namespace nmct.ba.cashlessproject.api.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        public string Name { get; set; }
+
+        [Required]
+        public string Firstname { get; set; }
+
+        [Required]
+        public string Address { get; set; }
+
+        [Required]
+        public string City { get; set; }
+
+        [Required]
+        public string ZipCode { get; set; }
+
+        public string Twittername { get; set; }
     }
 
     public class ResetPasswordViewModel

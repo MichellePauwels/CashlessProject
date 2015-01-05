@@ -193,6 +193,11 @@
     </Compile>
     <Compile Include="Helper\Cryptography.cs" />
     <Compile Include="Helper\Database.cs" />
+    <Compile Include="Migrations\201501042319412_InitDatabase.cs" />
+    <Compile Include="Migrations\201501042319412_InitDatabase.Designer.cs">
+      <DependentUpon>201501042319412_InitDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\DA\CostumerDA.cs" />
     <Compile Include="Models\DA\EmployeeDA.cs" />
@@ -275,7 +280,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Vereniging\Index.cshtml" />
     <Content Include="Views\Kassa\Index.cshtml" />
@@ -309,6 +313,11 @@
       <Project>{0d13030a-faa0-4775-9e88-56f075b9eedb}</Project>
       <Name>nmct.ba.cashlessproject.model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201501042319412_InitDatabase.resx">
+      <DependentUpon>201501042319412_InitDatabase.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

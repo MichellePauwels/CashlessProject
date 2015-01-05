@@ -16,12 +16,19 @@ namespace nmct.ba.cashlessproject.api.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string Name { get; set; }
+        public string Firstname { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
+        public string Zipcode { get; set; }
+        public string Twittername { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("ConnectionString", throwIfV1Schema: false)
         {
         }
 

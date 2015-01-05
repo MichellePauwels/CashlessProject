@@ -22,7 +22,7 @@ namespace nmct.ba.cashlessproject.api.Models.DA
             string dbname = claims.FirstOrDefault(c => c.Type == "dbname").Value;
             string id = claims.FirstOrDefault(c => c.Type == "id").Value;
 
-            return Database.CreateConnectionString("System.Data.SqlClient", @"MichelleToshiba", dbname, dblogin, dbpass);
+            return Database.CreateConnectionString("System.Data.SqlClient", @"MichelleToshiba", dbname, dblogin, Cryptography.Decrypt(dbpass));
         }
 
         public static List<Employee> GetEmployees(IEnumerable<Claim> claims)
