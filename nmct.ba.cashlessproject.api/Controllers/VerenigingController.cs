@@ -26,30 +26,19 @@ namespace nmct.ba.cashlessproject.api.Controllers
             return View();
         }
 
+        [HttpGet]
         public ActionResult Registreren()
         {
-            return View();
+            Vereniging vereniging = new Vereniging();
+            return View(vereniging);
         }
 
         [HttpPost]
-        public ActionResult InsertVereniging(string vernaam, string adres, string email, string telefoon, string loginUser, string loginPas, string dbName, string dbUser, string dbPas)
+        public ActionResult InsertVereniging(Vereniging newOrganisation)
         {
-            if (!string.IsNullOrEmpty(vernaam) && !string.IsNullOrEmpty(adres) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(telefoon) && !string.IsNullOrEmpty(loginUser) && !string.IsNullOrEmpty(loginPas) && !string.IsNullOrEmpty(dbName) && !string.IsNullOrEmpty(dbUser) && !string.IsNullOrEmpty(dbPas))
+            if (newOrganisation != null)
             {
-                Vereniging ver = new Vereniging()
-                {
-                    OrganisationName = vernaam,
-                    Address = adres,
-                    Email = email,
-                    Phone = telefoon,
-                    Login = loginUser,
-                    Password = loginPas,
-                    DbName = dbName,
-                    DbLogin = dbUser,
-                    DbPassword = dbPas
-                };
-
-                VerenigingDA.InsertVereniging(ver);
+                VerenigingDA.InsertVereniging(newOrganisation);
 
                 return RedirectToAction("Overzicht");
             }

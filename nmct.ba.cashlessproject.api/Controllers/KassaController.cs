@@ -103,9 +103,11 @@ namespace nmct.ba.cashlessproject.api.Controllers
             return View(pmkassa);
         }
 
+        [HttpGet]
         public ActionResult Toevoegen()
         {
-            return View();
+            Register register = new Register();
+            return View(register);
         }
 
         [HttpGet]
@@ -141,17 +143,11 @@ namespace nmct.ba.cashlessproject.api.Controllers
         }
 
         [HttpPost]
-        public ActionResult ToevoegenKassa(string kassaNaam, string toestel)
+        public ActionResult ToevoegenKassa(Register register)
         {
-            if(!string.IsNullOrEmpty(kassaNaam) && !string.IsNullOrEmpty(toestel))
+            if(register != null)
             {
-                Register reg = new Register() 
-                { 
-                    RegisterName = kassaNaam,
-                    Device = toestel
-                };
-
-                RegisterDA.InsertRegister(reg);
+                RegisterDA.InsertRegister(register);
 
                 return RedirectToAction("Overzicht");
             }
