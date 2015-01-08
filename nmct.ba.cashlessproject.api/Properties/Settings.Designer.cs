@@ -28,20 +28,20 @@ namespace nmct.ba.cashlessproject.api.Properties {
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MichelleToshiba;Initial Catalog=cashless.app;Integrated Security=True" +
             "")]
-        public string ConnectionString {
+        public string DefaultConnection {
             get {
-                return ((string)(this["ConnectionString"]));
+                return ((string)(this["DefaultConnection"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MichelleToshiba;Initial Catalog=cashless.app;Integrated Security=True" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MichelleToshiba;Initial Catalog=cashless.web;Integrated Security=True" +
             "")]
-        public string DefaultConnection {
+        public string ConnectionString {
             get {
-                return ((string)(this["DefaultConnection"]));
+                return ((string)(this["ConnectionString"]));
             }
         }
     }
